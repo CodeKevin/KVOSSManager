@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		389E4F0A20297A14004F3A6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F0920297A14004F3A6F /* AppDelegate.m */; };
+		389E4F0D20297A14004F3A6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F0C20297A14004F3A6F /* ViewController.m */; };
+		389E4F1020297A14004F3A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389E4F0E20297A14004F3A6F /* Main.storyboard */; };
+		389E4F1220297A14004F3A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389E4F1120297A14004F3A6F /* Assets.xcassets */; };
+		389E4F1520297A14004F3A6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389E4F1320297A14004F3A6F /* LaunchScreen.storyboard */; };
+		389E4F1820297A14004F3A6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F1720297A14004F3A6F /* main.m */; };
+		389E4F2120297A5A004F3A6F /* KVOSSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F2020297A5A004F3A6F /* KVOSSManager.m */; };
+		389E4F5C202AF024004F3A6F /* OSSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F2A202AF023004F3A6F /* OSSClient.m */; };
+		389E4F5D202AF024004F3A6F /* OSSCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F2C202AF023004F3A6F /* OSSCompat.m */; };
+		389E4F5E202AF024004F3A6F /* OSSDDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F31202AF023004F3A6F /* OSSDDLog.m */; };
+		389E4F5F202AF024004F3A6F /* OSSFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F33202AF023004F3A6F /* OSSFileLogger.m */; };
+		389E4F60202AF024004F3A6F /* OSSNSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F36202AF023004F3A6F /* OSSNSLogger.m */; };
+		389E4F61202AF024004F3A6F /* OSSReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F38202AF023004F3A6F /* OSSReachability.m */; };
+		389E4F62202AF024004F3A6F /* OSSHttpdns.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F3A202AF023004F3A6F /* OSSHttpdns.m */; };
+		389E4F63202AF024004F3A6F /* OSSIPv6Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F3D202AF023004F3A6F /* OSSIPv6Adapter.m */; };
+		389E4F64202AF024004F3A6F /* OSSIPv6PrefixResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F3F202AF023004F3A6F /* OSSIPv6PrefixResolver.m */; };
+		389E4F65202AF024004F3A6F /* OSSReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F41202AF023004F3A6F /* OSSReachabilityManager.m */; };
+		389E4F66202AF024004F3A6F /* OSSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F43202AF023004F3A6F /* OSSLog.m */; };
+		389E4F67202AF024004F3A6F /* OSSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F45202AF023004F3A6F /* OSSModel.m */; };
+		389E4F68202AF024004F3A6F /* OSSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F47202AF023004F3A6F /* OSSNetworking.m */; };
+		389E4F69202AF024004F3A6F /* OSSBolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F4B202AF023004F3A6F /* OSSBolts.m */; };
+		389E4F6A202AF024004F3A6F /* OSSCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F4D202AF023004F3A6F /* OSSCancellationToken.m */; };
+		389E4F6B202AF024004F3A6F /* OSSCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F4F202AF023004F3A6F /* OSSCancellationTokenRegistration.m */; };
+		389E4F6C202AF024004F3A6F /* OSSCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F51202AF023004F3A6F /* OSSCancellationTokenSource.m */; };
+		389E4F6D202AF024004F3A6F /* OSSExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F53202AF023004F3A6F /* OSSExecutor.m */; };
+		389E4F6E202AF024004F3A6F /* OSSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F55202AF023004F3A6F /* OSSTask.m */; };
+		389E4F6F202AF024004F3A6F /* OSSTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F57202AF023004F3A6F /* OSSTaskCompletionSource.m */; };
+		389E4F70202AF024004F3A6F /* OSSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F59202AF023004F3A6F /* OSSUtil.m */; };
+		389E4F71202AF024004F3A6F /* OSSXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F5B202AF023004F3A6F /* OSSXMLDictionary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		389E4F0520297A14004F3A6F /* KVOSSManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVOSSManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		389E4F0820297A14004F3A6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		389E4F0920297A14004F3A6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		389E4F0B20297A14004F3A6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		389E4F0C20297A14004F3A6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		389E4F0F20297A14004F3A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		389E4F1120297A14004F3A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		389E4F1420297A14004F3A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		389E4F1620297A14004F3A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		389E4F1720297A14004F3A6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		389E4F1F20297A5A004F3A6F /* KVOSSManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOSSManager.h; sourceTree = "<group>"; };
+		389E4F2020297A5A004F3A6F /* KVOSSManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOSSManager.m; sourceTree = "<group>"; };
+		389E4F26202AEC83004F3A6F /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		389E4F28202AF023004F3A6F /* AliyunOSSiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunOSSiOS.h; sourceTree = "<group>"; };
+		389E4F29202AF023004F3A6F /* OSSClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSClient.h; sourceTree = "<group>"; };
+		389E4F2A202AF023004F3A6F /* OSSClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSClient.m; sourceTree = "<group>"; };
+		389E4F2B202AF023004F3A6F /* OSSCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSCompat.h; sourceTree = "<group>"; };
+		389E4F2C202AF023004F3A6F /* OSSCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSCompat.m; sourceTree = "<group>"; };
+		389E4F2D202AF023004F3A6F /* OSSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSDefine.h; sourceTree = "<group>"; };
+		389E4F2F202AF023004F3A6F /* OSSCocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSCocoaLumberjack.h; sourceTree = "<group>"; };
+		389E4F30202AF023004F3A6F /* OSSDDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSDDLog.h; sourceTree = "<group>"; };
+		389E4F31202AF023004F3A6F /* OSSDDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSDDLog.m; sourceTree = "<group>"; };
+		389E4F32202AF023004F3A6F /* OSSFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSFileLogger.h; sourceTree = "<group>"; };
+		389E4F33202AF023004F3A6F /* OSSFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSFileLogger.m; sourceTree = "<group>"; };
+		389E4F34202AF023004F3A6F /* OSSLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSLogMacros.h; sourceTree = "<group>"; };
+		389E4F35202AF023004F3A6F /* OSSNSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSNSLogger.h; sourceTree = "<group>"; };
+		389E4F36202AF023004F3A6F /* OSSNSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSNSLogger.m; sourceTree = "<group>"; };
+		389E4F37202AF023004F3A6F /* OSSReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSReachability.h; sourceTree = "<group>"; };
+		389E4F38202AF023004F3A6F /* OSSReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSReachability.m; sourceTree = "<group>"; };
+		389E4F39202AF023004F3A6F /* OSSHttpdns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSHttpdns.h; sourceTree = "<group>"; };
+		389E4F3A202AF023004F3A6F /* OSSHttpdns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSHttpdns.m; sourceTree = "<group>"; };
+		389E4F3C202AF023004F3A6F /* OSSIPv6Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSIPv6Adapter.h; sourceTree = "<group>"; };
+		389E4F3D202AF023004F3A6F /* OSSIPv6Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSIPv6Adapter.m; sourceTree = "<group>"; };
+		389E4F3E202AF023004F3A6F /* OSSIPv6PrefixResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSIPv6PrefixResolver.h; sourceTree = "<group>"; };
+		389E4F3F202AF023004F3A6F /* OSSIPv6PrefixResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSIPv6PrefixResolver.m; sourceTree = "<group>"; };
+		389E4F40202AF023004F3A6F /* OSSReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSReachabilityManager.h; sourceTree = "<group>"; };
+		389E4F41202AF023004F3A6F /* OSSReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSReachabilityManager.m; sourceTree = "<group>"; };
+		389E4F42202AF023004F3A6F /* OSSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSLog.h; sourceTree = "<group>"; };
+		389E4F43202AF023004F3A6F /* OSSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSLog.m; sourceTree = "<group>"; };
+		389E4F44202AF023004F3A6F /* OSSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSModel.h; sourceTree = "<group>"; };
+		389E4F45202AF023004F3A6F /* OSSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSModel.m; sourceTree = "<group>"; };
+		389E4F46202AF023004F3A6F /* OSSNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSNetworking.h; sourceTree = "<group>"; };
+		389E4F47202AF023004F3A6F /* OSSNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSNetworking.m; sourceTree = "<group>"; };
+		389E4F48202AF023004F3A6F /* OSSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSService.h; sourceTree = "<group>"; };
+		389E4F4A202AF023004F3A6F /* OSSBolts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSBolts.h; sourceTree = "<group>"; };
+		389E4F4B202AF023004F3A6F /* OSSBolts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSBolts.m; sourceTree = "<group>"; };
+		389E4F4C202AF023004F3A6F /* OSSCancellationToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSCancellationToken.h; sourceTree = "<group>"; };
+		389E4F4D202AF023004F3A6F /* OSSCancellationToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSCancellationToken.m; sourceTree = "<group>"; };
+		389E4F4E202AF023004F3A6F /* OSSCancellationTokenRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSCancellationTokenRegistration.h; sourceTree = "<group>"; };
+		389E4F4F202AF023004F3A6F /* OSSCancellationTokenRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		389E4F50202AF023004F3A6F /* OSSCancellationTokenSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSCancellationTokenSource.h; sourceTree = "<group>"; };
+		389E4F51202AF023004F3A6F /* OSSCancellationTokenSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSCancellationTokenSource.m; sourceTree = "<group>"; };
+		389E4F52202AF023004F3A6F /* OSSExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSExecutor.h; sourceTree = "<group>"; };
+		389E4F53202AF023004F3A6F /* OSSExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSExecutor.m; sourceTree = "<group>"; };
+		389E4F54202AF023004F3A6F /* OSSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSTask.h; sourceTree = "<group>"; };
+		389E4F55202AF023004F3A6F /* OSSTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSTask.m; sourceTree = "<group>"; };
+		389E4F56202AF023004F3A6F /* OSSTaskCompletionSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSTaskCompletionSource.h; sourceTree = "<group>"; };
+		389E4F57202AF023004F3A6F /* OSSTaskCompletionSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSTaskCompletionSource.m; sourceTree = "<group>"; };
+		389E4F58202AF023004F3A6F /* OSSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSUtil.h; sourceTree = "<group>"; };
+		389E4F59202AF023004F3A6F /* OSSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSUtil.m; sourceTree = "<group>"; };
+		389E4F5A202AF023004F3A6F /* OSSXMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSXMLDictionary.h; sourceTree = "<group>"; };
+		389E4F5B202AF023004F3A6F /* OSSXMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSXMLDictionary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		389E4F0220297A14004F3A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		389E4EFC20297A14004F3A6F = {
+			isa = PBXGroup;
+			children = (
+				389E4F0720297A14004F3A6F /* KVOSSManagerDemo */,
+				389E4F0620297A14004F3A6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		389E4F0620297A14004F3A6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				389E4F0520297A14004F3A6F /* KVOSSManagerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		389E4F0720297A14004F3A6F /* KVOSSManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				389E4F27202AF023004F3A6F /* AliyunOSSiOS */,
+				389E4F1E20297A23004F3A6F /* AliyunOSSManager */,
+				389E4F0820297A14004F3A6F /* AppDelegate.h */,
+				389E4F0920297A14004F3A6F /* AppDelegate.m */,
+				389E4F0B20297A14004F3A6F /* ViewController.h */,
+				389E4F0C20297A14004F3A6F /* ViewController.m */,
+				389E4F0E20297A14004F3A6F /* Main.storyboard */,
+				389E4F1120297A14004F3A6F /* Assets.xcassets */,
+				389E4F1320297A14004F3A6F /* LaunchScreen.storyboard */,
+				389E4F1620297A14004F3A6F /* Info.plist */,
+				389E4F1720297A14004F3A6F /* main.m */,
+			);
+			path = KVOSSManagerDemo;
+			sourceTree = "<group>";
+		};
+		389E4F1E20297A23004F3A6F /* AliyunOSSManager */ = {
+			isa = PBXGroup;
+			children = (
+				389E4F1F20297A5A004F3A6F /* KVOSSManager.h */,
+				389E4F2020297A5A004F3A6F /* KVOSSManager.m */,
+				389E4F26202AEC83004F3A6F /* define.h */,
+			);
+			path = AliyunOSSManager;
+			sourceTree = "<group>";
+		};
+		389E4F27202AF023004F3A6F /* AliyunOSSiOS */ = {
+			isa = PBXGroup;
+			children = (
+				389E4F28202AF023004F3A6F /* AliyunOSSiOS.h */,
+				389E4F29202AF023004F3A6F /* OSSClient.h */,
+				389E4F2A202AF023004F3A6F /* OSSClient.m */,
+				389E4F2B202AF023004F3A6F /* OSSCompat.h */,
+				389E4F2C202AF023004F3A6F /* OSSCompat.m */,
+				389E4F2D202AF023004F3A6F /* OSSDefine.h */,
+				389E4F2E202AF023004F3A6F /* OSSFileLog */,
+				389E4F39202AF023004F3A6F /* OSSHttpdns.h */,
+				389E4F3A202AF023004F3A6F /* OSSHttpdns.m */,
+				389E4F3B202AF023004F3A6F /* OSSIPv6 */,
+				389E4F42202AF023004F3A6F /* OSSLog.h */,
+				389E4F43202AF023004F3A6F /* OSSLog.m */,
+				389E4F44202AF023004F3A6F /* OSSModel.h */,
+				389E4F45202AF023004F3A6F /* OSSModel.m */,
+				389E4F46202AF023004F3A6F /* OSSNetworking.h */,
+				389E4F47202AF023004F3A6F /* OSSNetworking.m */,
+				389E4F48202AF023004F3A6F /* OSSService.h */,
+				389E4F49202AF023004F3A6F /* OSSTask */,
+				389E4F58202AF023004F3A6F /* OSSUtil.h */,
+				389E4F59202AF023004F3A6F /* OSSUtil.m */,
+				389E4F5A202AF023004F3A6F /* OSSXMLDictionary.h */,
+				389E4F5B202AF023004F3A6F /* OSSXMLDictionary.m */,
+			);
+			path = AliyunOSSiOS;
+			sourceTree = "<group>";
+		};
+		389E4F2E202AF023004F3A6F /* OSSFileLog */ = {
+			isa = PBXGroup;
+			children = (
+				389E4F2F202AF023004F3A6F /* OSSCocoaLumberjack.h */,
+				389E4F30202AF023004F3A6F /* OSSDDLog.h */,
+				389E4F31202AF023004F3A6F /* OSSDDLog.m */,
+				389E4F32202AF023004F3A6F /* OSSFileLogger.h */,
+				389E4F33202AF023004F3A6F /* OSSFileLogger.m */,
+				389E4F34202AF023004F3A6F /* OSSLogMacros.h */,
+				389E4F35202AF023004F3A6F /* OSSNSLogger.h */,
+				389E4F36202AF023004F3A6F /* OSSNSLogger.m */,
+				389E4F37202AF023004F3A6F /* OSSReachability.h */,
+				389E4F38202AF023004F3A6F /* OSSReachability.m */,
+			);
+			path = OSSFileLog;
+			sourceTree = "<group>";
+		};
+		389E4F3B202AF023004F3A6F /* OSSIPv6 */ = {
+			isa = PBXGroup;
+			children = (
+				389E4F3C202AF023004F3A6F /* OSSIPv6Adapter.h */,
+				389E4F3D202AF023004F3A6F /* OSSIPv6Adapter.m */,
+				389E4F3E202AF023004F3A6F /* OSSIPv6PrefixResolver.h */,
+				389E4F3F202AF023004F3A6F /* OSSIPv6PrefixResolver.m */,
+				389E4F40202AF023004F3A6F /* OSSReachabilityManager.h */,
+				389E4F41202AF023004F3A6F /* OSSReachabilityManager.m */,
+			);
+			path = OSSIPv6;
+			sourceTree = "<group>";
+		};
+		389E4F49202AF023004F3A6F /* OSSTask */ = {
+			isa = PBXGroup;
+			children = (
+				389E4F4A202AF023004F3A6F /* OSSBolts.h */,
+				389E4F4B202AF023004F3A6F /* OSSBolts.m */,
+				389E4F4C202AF023004F3A6F /* OSSCancellationToken.h */,
+				389E4F4D202AF023004F3A6F /* OSSCancellationToken.m */,
+				389E4F4E202AF023004F3A6F /* OSSCancellationTokenRegistration.h */,
+				389E4F4F202AF023004F3A6F /* OSSCancellationTokenRegistration.m */,
+				389E4F50202AF023004F3A6F /* OSSCancellationTokenSource.h */,
+				389E4F51202AF023004F3A6F /* OSSCancellationTokenSource.m */,
+				389E4F52202AF023004F3A6F /* OSSExecutor.h */,
+				389E4F53202AF023004F3A6F /* OSSExecutor.m */,
+				389E4F54202AF023004F3A6F /* OSSTask.h */,
+				389E4F55202AF023004F3A6F /* OSSTask.m */,
+				389E4F56202AF023004F3A6F /* OSSTaskCompletionSource.h */,
+				389E4F57202AF023004F3A6F /* OSSTaskCompletionSource.m */,
+			);
+			path = OSSTask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		389E4F0420297A14004F3A6F /* KVOSSManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 389E4F1B20297A14004F3A6F /* Build configuration list for PBXNativeTarget "KVOSSManagerDemo" */;
+			buildPhases = (
+				389E4F0120297A14004F3A6F /* Sources */,
+				389E4F0220297A14004F3A6F /* Frameworks */,
+				389E4F0320297A14004F3A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVOSSManagerDemo;
+			productName = KVOSSManagerDemo;
+			productReference = 389E4F0520297A14004F3A6F /* KVOSSManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		389E4EFD20297A14004F3A6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Kevin;
+				TargetAttributes = {
+					389E4F0420297A14004F3A6F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 389E4F0020297A14004F3A6F /* Build configuration list for PBXProject "KVOSSManagerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 389E4EFC20297A14004F3A6F;
+			productRefGroup = 389E4F0620297A14004F3A6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				389E4F0420297A14004F3A6F /* KVOSSManagerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		389E4F0320297A14004F3A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389E4F1520297A14004F3A6F /* LaunchScreen.storyboard in Resources */,
+				389E4F1220297A14004F3A6F /* Assets.xcassets in Resources */,
+				389E4F1020297A14004F3A6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		389E4F0120297A14004F3A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389E4F65202AF024004F3A6F /* OSSReachabilityManager.m in Sources */,
+				389E4F66202AF024004F3A6F /* OSSLog.m in Sources */,
+				389E4F69202AF024004F3A6F /* OSSBolts.m in Sources */,
+				389E4F0D20297A14004F3A6F /* ViewController.m in Sources */,
+				389E4F6E202AF024004F3A6F /* OSSTask.m in Sources */,
+				389E4F70202AF024004F3A6F /* OSSUtil.m in Sources */,
+				389E4F5D202AF024004F3A6F /* OSSCompat.m in Sources */,
+				389E4F63202AF024004F3A6F /* OSSIPv6Adapter.m in Sources */,
+				389E4F6F202AF024004F3A6F /* OSSTaskCompletionSource.m in Sources */,
+				389E4F1820297A14004F3A6F /* main.m in Sources */,
+				389E4F64202AF024004F3A6F /* OSSIPv6PrefixResolver.m in Sources */,
+				389E4F71202AF024004F3A6F /* OSSXMLDictionary.m in Sources */,
+				389E4F5E202AF024004F3A6F /* OSSDDLog.m in Sources */,
+				389E4F62202AF024004F3A6F /* OSSHttpdns.m in Sources */,
+				389E4F60202AF024004F3A6F /* OSSNSLogger.m in Sources */,
+				389E4F2120297A5A004F3A6F /* KVOSSManager.m in Sources */,
+				389E4F6A202AF024004F3A6F /* OSSCancellationToken.m in Sources */,
+				389E4F68202AF024004F3A6F /* OSSNetworking.m in Sources */,
+				389E4F67202AF024004F3A6F /* OSSModel.m in Sources */,
+				389E4F6B202AF024004F3A6F /* OSSCancellationTokenRegistration.m in Sources */,
+				389E4F0A20297A14004F3A6F /* AppDelegate.m in Sources */,
+				389E4F5C202AF024004F3A6F /* OSSClient.m in Sources */,
+				389E4F61202AF024004F3A6F /* OSSReachability.m in Sources */,
+				389E4F5F202AF024004F3A6F /* OSSFileLogger.m in Sources */,
+				389E4F6D202AF024004F3A6F /* OSSExecutor.m in Sources */,
+				389E4F6C202AF024004F3A6F /* OSSCancellationTokenSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		389E4F0E20297A14004F3A6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				389E4F0F20297A14004F3A6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		389E4F1320297A14004F3A6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				389E4F1420297A14004F3A6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		389E4F1920297A14004F3A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		389E4F1A20297A14004F3A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		389E4F1C20297A14004F3A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KVOSSManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kevin.KVOSSManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		389E4F1D20297A14004F3A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KVOSSManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kevin.KVOSSManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		389E4F0020297A14004F3A6F /* Build configuration list for PBXProject "KVOSSManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389E4F1920297A14004F3A6F /* Debug */,
+				389E4F1A20297A14004F3A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		389E4F1B20297A14004F3A6F /* Build configuration list for PBXNativeTarget "KVOSSManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389E4F1C20297A14004F3A6F /* Debug */,
+				389E4F1D20297A14004F3A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 389E4EFD20297A14004F3A6F /* Project object */;
+}
