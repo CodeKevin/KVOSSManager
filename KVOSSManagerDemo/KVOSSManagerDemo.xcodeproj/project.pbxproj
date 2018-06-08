@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A02196120CABCEC00540730 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A02196020CABCEC00540730 /* CoreTelephony.framework */; };
+		0A02196320CABD0000540730 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A02196220CABD0000540730 /* SystemConfiguration.framework */; };
+		0A02196520CABD4100540730 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A02196420CABD4100540730 /* libresolv.tbd */; };
 		389E4F0A20297A14004F3A6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F0920297A14004F3A6F /* AppDelegate.m */; };
 		389E4F0D20297A14004F3A6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F0C20297A14004F3A6F /* ViewController.m */; };
 		389E4F1020297A14004F3A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389E4F0E20297A14004F3A6F /* Main.storyboard */; };
@@ -39,6 +42,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A02196020CABCEC00540730 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0A02196220CABD0000540730 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0A02196420CABD4100540730 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		389E4F0520297A14004F3A6F /* KVOSSManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVOSSManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389E4F0820297A14004F3A6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		389E4F0920297A14004F3A6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,17 +114,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A02196520CABD4100540730 /* libresolv.tbd in Frameworks */,
+				0A02196320CABD0000540730 /* SystemConfiguration.framework in Frameworks */,
+				0A02196120CABCEC00540730 /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A02195F20CABCEC00540730 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A02196420CABD4100540730 /* libresolv.tbd */,
+				0A02196220CABD0000540730 /* SystemConfiguration.framework */,
+				0A02196020CABCEC00540730 /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		389E4EFC20297A14004F3A6F = {
 			isa = PBXGroup;
 			children = (
 				389E4F0720297A14004F3A6F /* KVOSSManagerDemo */,
 				389E4F0620297A14004F3A6F /* Products */,
+				0A02195F20CABCEC00540730 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
